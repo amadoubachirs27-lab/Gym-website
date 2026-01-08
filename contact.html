@@ -1,53 +1,62 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PowerFit Gym | Contact</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Request a free trial at PowerFit Gym.">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <nav class="navbar">
-    <a class="logo" href="index.html">PowerFit Gym</a>
+    <a class="logo" href="./index.html">PowerFit Gym</a>
     <ul class="nav-links">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="services.html">Offres & Cours</a></li>
-      <li><a class="active" href="contact.html">Contact</a></li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./services.html">Plans & Classes</a></li>
+      <li><a class="active" href="./contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
   <section class="section">
-    <h1>Demander un essai gratuit</h1>
-    <p>Contacte-nous pour un essai gratuit ou plus d’informations.</p>
+    <h1>Request a Free Trial</h1>
+    <p>Contact us to book a free trial or ask a question.</p>
 
     <form class="contact-form">
       <label>
-      <input type="text" name="name" required placeholder="Your name">
-<input type="email" name="email" required placeholder="Your@email.com">
-
+        Full Name *
+        <input type="text" name="name" required placeholder="Your name">
       </label>
 
       <label>
-        Objectif
+        Email *
+        <input type="email" name="email" required placeholder="you@email.com">
+      </label>
+
+      <label>
+        Goal
         <select name="goal">
-          <option>Remise en forme</option>
-          <option>Perte de poids</option>
-          <option>Prise de masse</option>
+          <option>Get fit</option>
+          <option>Lose weight</option>
+          <option>Build muscle</option>
         </select>
       </label>
 
-      <button class="btn" type="submit">Envoyer</button>
+      <button class="btn" type="submit">Send</button>
     </form>
   </section>
 </main>
 
 <footer class="footer">
-  <p>© PowerFit Gym</p>
+  <p>© <span id="year"></span> PowerFit Gym — All rights reserved.</p>
 </footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
