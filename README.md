@@ -1,49 +1,37 @@
-# Gym-website
 # Gym Website – PowerFit Gym
 
-## 👤 Auteur
-**Amadou Bachir**
+## Author
+Amadou Bachir
 
-## 📄 Description
-Ce projet est un site web vitrine pour une **salle de sport (gym/fitness)**.  
-Il a été réalisé dans le cadre d’un projet de bootcamp afin de démontrer la maîtrise des bases du **HTML**, du **CSS** et de l’utilisation de **Git/GitHub**.
+## Description
+This project is a static gym website created as part of a web development assignment.  
+It represents a fitness club called **PowerFit Gym** and showcases its services, membership plans, and a contact form.
 
-Le site présente la salle, les abonnements proposés et permet aux visiteurs de contacter la salle via un formulaire.
+The website is fully built using **HTML and CSS only**, without any frameworks or JavaScript.
 
-## 🌐 Site en ligne
-👉 https://amadoubachirs27-lab.github.io/Gym-website/
+## Pages
+- **Home**: Presentation of the gym, main call-to-action, and member reviews  
+- **Plans & Classes**: Membership plans and available group classes  
+- **Contact**: Contact form to request a free trial or ask a question  
 
-## 🛠️ Technologies utilisées
-- HTML5
-- CSS3
-- Git
-- GitHub
-- GitHub Pages
+## Technologies Used
+- HTML5  
+- CSS3  
+- Git & GitHub  
+- GitHub Pages for deployment  
 
-## 📁 Structure du projet
+## Live Website
+🔗 https://amadoubachirs27-lab.github.io/Gym-website/
 
-## 🚀 Fonctionnalités
-- Navigation entre plusieurs pages via une barre de menu
-- Mise en page responsive (desktop & mobile)
-- Présentation des abonnements en colonnes
-- Formulaire de contact avec champs requis
-- Site hébergé en ligne via GitHub Pages
+## Repository
+🔗 https://github.com/amadoubachirs27-lab/Gym-website
 
-## ▶️ Comment utiliser le projet
-1. Cloner le dépôt : git clone https://github.com/amadoubachirs27-lab/Gym-website.git
-2. Ouvrir le fichier `index.html` dans un navigateur  
-**ou**
-3. Accéder directement au site en ligne via le lien GitHub Pages.
+## Features
+- Responsive layout
+- Navigation menu shared across all pages
+- External CSS stylesheet
+- Image integration
+- Clean and semantic HTML structure
 
-## 🔮 Améliorations futures
-- Ajouter un système de réservation en ligne pour les cours
-- Intégrer une vraie base de données pour le formulaire de contact
-- Améliorer le design avec des animations et des icônes
-- Ajouter une page “À propos” avec les coachs et leur spécialité
-
-## ✅ Validation
-- HTML validé avec le **W3C Validator**
-- Projet versionné avec Git (commits réguliers)
-git add README.md
-git commit -m "Add complete README"
-git push
+## License
+This project is for educational purposes only.
