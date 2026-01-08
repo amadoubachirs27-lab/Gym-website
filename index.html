@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym | Accueil</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">PowerFit Gym</a>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Accueil</a></li>
+        <li><a href="services.html">Offres & Cours</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Transforme ton corps, booste ton énergie</h1>
+        <p>Coaching, musculation, cardio et cours collectifs. Rejoins une salle pensée pour tes objectifs.</p>
+        <a class="btn" href="contact.html">Réserver un essai gratuit</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="img/gym.jpg" alt="Salle de sport PowerFit Gym" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Pourquoi PowerFit ?</h2>
+      <div class="features">
+        <div class="card">
+          <h3>Coachs certifiés</h3>
+          <p>Un suivi adapté à ton niveau, avec un plan simple et efficace.</p>
+        </div>
+        <div class="card">
+          <h3>Équipements modernes</h3>
+          <p>Zone muscu, cardio, poids libres et espace functional training.</p>
+        </div>
+        <div class="card">
+          <h3>Horaires flexibles</h3>
+          <p>Ouvert tôt et tard pour s’adapter à ton rythme.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Avis des adhérents</h2>
+      <div class="testimonials">
+        <blockquote>“Ambiance incroyable et coachs au top. J’ai enfin de vrais résultats.”</blockquote>
+        <blockquote>“Salle propre, machines nickel, et cours collectifs super motivants.”</blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> PowerFit Gym — Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

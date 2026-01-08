@@ -1,0 +1,84 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background: #fff;
+}
+
+.site-header { border-bottom: 1px solid #eee; }
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo { font-weight: 700; text-decoration: none; color: inherit; }
+.nav-links { list-style: none; display: flex; gap: 12px; margin: 0; padding: 0; }
+.nav-links a { text-decoration: none; color: #111; padding: 8px 10px; border-radius: 8px; }
+.nav-links a.active, .nav-links a:hover { background: #f2f2f2; }
+
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 16px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 18px;
+  align-items: center;
+}
+.hero img { width: 100%; border-radius: 14px; display: block; }
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section { max-width: 1100px; margin: 0 auto; padding: 10px 16px 28px; }
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.card { border: 1px solid #eee; border-radius: 14px; padding: 14px; }
+.testimonials blockquote {
+  margin: 10px 0;
+  padding: 12px 14px;
+  border-left: 4px solid #111;
+  background: #fafafa;
+  border-radius: 10px;
+}
+
+.footer { border-top: 1px solid #eee; padding: 16px; text-align: center; color: #555; }
+
+@media (max-width: 850px) {
+  .hero { grid-template-columns: 1fr; }
+  .features { grid-template-columns: 1fr; }
+}
+
+/* Formulaire */
+.contact-form {
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact-form input,
+.contact-form select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
