@@ -158,3 +158,13 @@ section {
     height: 200px;
   }
 }
+/* FINAL OVERRIDE — guarantees hero image won't be huge */
+.hero img {
+  width: 100% !important;
+  max-width: 420px !important;
+  height: 240px !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
