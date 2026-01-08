@@ -158,13 +158,42 @@ section {
     height: 200px;
   }
 }
-/* FINAL OVERRIDE — guarantees hero image won't be huge */
-.hero img {
-  width: 100% !important;
-  max-width: 420px !important;
-  height: 240px !important;
-  object-fit: cover !important;
-  display: block !important;
-  margin: 0 auto !important;
+/* === HERO IMAGE FINAL FIX === */
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 380px;
+  width: 100%;
+  justify-self: end;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    justify-self: center;
+  }
+
+  .hero-image img {
+    height: 200px;
+  }
 }
 
