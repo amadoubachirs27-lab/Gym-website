@@ -97,3 +97,12 @@ body {
   object-fit: cover;
   display: block;
 }
+@media (max-width: 768px) {
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    height: 220px;
+  }
+}
