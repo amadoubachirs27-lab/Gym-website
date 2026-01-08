@@ -48,21 +48,22 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
-.card { border: 1px solid #eee; border-radius: 14px; padding: 14px; }
-.testimonials blockquote {
-  margin: 10px 0;
-  padding: 12px 14px;
-  border-left: 4px solid #111;
-  background: #fafafa;
-  border-radius: 10px;
+.card {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 14px;
+  background-color: #fafafa;
 }
+
 
 .footer { border-top: 1px solid #eee; padding: 16px; text-align: center; color: #555; }
 
 @media (max-width: 850px) {
-  .hero { grid-template-columns: 1fr; }
-  .features { grid-template-columns: 1fr; }
+  .hero {
+    text-align: center;
+  }
 }
+
 
 /* Formulaire */
 .contact-form {
@@ -81,4 +82,7 @@ body {
   padding: 8px;
   border-radius: 8px;
   border: 1px solid #ccc;
+}
+.btn:hover {
+  opacity: 0.9;
 }
